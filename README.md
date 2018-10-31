@@ -62,6 +62,15 @@ To continuously update the client so that it stays up to date with the current A
 
 The client can be generated using a local copy of swagger-codegen by running the .travis/generate_client.sh script. 
 
+## Contributing
+
+Contributing follows standard git best practices. Essentially:
+0. Have your local environment setup, verify tests are passing locally, and make the code changes you like. 
+1. After changing some code, verify the tests are still passing after generating the client locally.
+2. Checkout a new branch. Label the branch with a brief feature description. `git checkout -b <my_feature_branch>`
+3. Push the branch with `git push --set-upstream origin <my_feature_branch>`
+4. Once the branch is pushed, and Travis has marked the build as passing, submit a pull request to master with 
+
 ## Tests
 
 To run tests, you need to configure your test suite to do these things:
