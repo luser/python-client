@@ -8,7 +8,9 @@ The onshape openAPI definition this client is generated may not correspond exact
 
 This is the official Python SDK for the Onshape API. 
 
-It is generated using Swagger Codegen from our OpenAPI API definition. For documentation of the API, [see here.](https://dev-portal.onshape.com/help).
+It is generated using Swagger Codegen from our [OpenAPI API definition.](https://github.com/onshape-public/python-client/blob/master/apiDataAll.jsonAuto.yaml) For documentation of the API, [see here.](https://dev-portal.onshape.com/help).
+
+The client was created for the Onshape Implementation Version described under info->version within the [OpenAPI API definition.](https://github.com/onshape-public/python-client/blob/master/apiDataAll.jsonAuto.yaml)
 
 ## Installation
 
@@ -69,7 +71,8 @@ Contributing follows standard git best practices. Essentially:
 1. After changing some code, verify the tests are still passing after generating the client locally.
 2. Checkout a new branch. Label the branch with a brief feature description. `git checkout -b <my_feature_branch>`
 3. Push the branch with `git push --set-upstream origin <my_feature_branch>`
-4. Once the branch is pushed, and Travis has marked the build as passing, submit a pull request to master with 
+4. Once the branch is pushed, and Travis has marked the build as passing, submit a pull request to master [here.](https://github.com/onshape-public/python-client/compare?expand=1)
+5. Add a reviewer (probably the suggested) to the pull request, and someone will then determine what to do with the request.
 
 ## Tests
 
