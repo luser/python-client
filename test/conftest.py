@@ -1,6 +1,7 @@
 import pytest
 from ruamel.yaml import YAML
 from onshape_client.configuration import Configuration
+import onshape_client
 from pathlib import Path
 
 yaml = YAML()
@@ -25,3 +26,6 @@ def configuration():
     configuration.api_key['ACCESS_KEY'] = conf['api_keys']['access_key'].encode('utf-8')
     configuration.host = conf['baseUrl']
     return configuration
+
+def api_client(configuration):
+    return onshape_client.ApiClient(configuration=configuration)
